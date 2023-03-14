@@ -1,0 +1,2 @@
+# Al Musafir App
+ Al Musafir is a travel quiz app that helps users find their next travel destination based on their preferences and interests. Users answer a series of questions about their preferred travel style, budget, destination type, and more. Based on their answers, the app suggests a destination that fits their preferences and provides information about that location, such as popular attractions, accommodations, and local culture.
