@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-35:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\pc\.gradle\caches\transforms-3\feddae91f3bd470da97bec7f36d913e4\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\pc\.gradle\caches\transforms-3\b92d4aa5bf5773c3d1df4e69c863379e\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\1b3d8f1926af07fdda0c5edae2d4b160\transformed\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
@@ -49,25 +49,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\pc\.gradle\cache
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\a20e96b89402e7ba1bf1ac05c9766002\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\ee5e1ed0927fb6d741505c14d3cfe938\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\c43cd158e6571229980dd3b588c7d356\transformed\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-35:12
 	package
-		ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:3:5-42
-		INJECTED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:2:1-35:12
-		INJECTED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-35:12
+		INJECTED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:2:1-35:12
-		INJECTED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-35:12
+		INJECTED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:5:5-33:19
+ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:5:5-33:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\pc\.gradle\caches\transforms-3\feddae91f3bd470da97bec7f36d913e4\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\pc\.gradle\caches\transforms-3\feddae91f3bd470da97bec7f36d913e4\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\pc\.gradle\caches\transforms-3\b92d4aa5bf5773c3d1df4e69c863379e\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -93,49 +93,49 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\pc
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\78d0f40d2b2f37c9bb60c47636567230\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:11:9-55
+		ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:11:9-55
 activity#easy.tuto.myquizapplication.Register
-ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:12:9-14:40
+ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:12:9-14:40
 	android:exported
-		ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:14:13-37
+		ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:14:13-37
 	android:name
-		ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:13:13-37
+		ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:13:13-37
 activity#easy.tuto.myquizapplication.Login
-ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:15:9-23:20
+ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:15:9-23:20
 	android:exported
-		ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:16:13-34
+		ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:16:13-34
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:21:27-74
 activity#easy.tuto.myquizapplication.MainActivity
-ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:24:9-32:20
+ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:24:9-32:20
 	android:exported
-		ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:26:13-36
+		ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:26:13-36
 	android:name
-		ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:25:13-41
+		ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:25:13-41
 uses-sdk
-INJECTED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\pc\.gradle\caches\transforms-3\feddae91f3bd470da97bec7f36d913e4\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\pc\.gradle\caches\transforms-3\feddae91f3bd470da97bec7f36d913e4\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\pc\.gradle\caches\transforms-3\b92d4aa5bf5773c3d1df4e69c863379e\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
@@ -226,16 +226,16 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\pc\.gradle\caches\transforms-3
 MERGED from [androidx.print:print:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\ee5e1ed0927fb6d741505c14d3cfe938\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\c43cd158e6571229980dd3b588c7d356\transformed\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\c43cd158e6571229980dd3b588c7d356\transformed\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\pc\.gradle\caches\transforms-3\c4553c53a8a3087bd096d30fe41d8abf\transformed\firebase-auth-21.1.0\AndroidManifest.xml:23:5-67
 	android:name

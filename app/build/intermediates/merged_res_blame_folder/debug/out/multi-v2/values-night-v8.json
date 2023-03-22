@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\pc\\Desktop\\Al-Musafir-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\pc\\Desktop\\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-3\\1b3d8f1926af07fdda0c5edae2d4b160\\transformed\\appcompat-1.3.0\\res\\values-night-v8\\values-night-v8.xml",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\pc\\Desktop\\Al-Musafir-App\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\pc\\Desktop\\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

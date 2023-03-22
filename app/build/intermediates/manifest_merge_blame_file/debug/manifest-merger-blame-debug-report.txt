@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml
+8-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml
+9-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pc\.gradle\caches\transforms-3\c4553c53a8a3087bd096d30fe41d8abf\transformed\firebase-auth-21.1.0\AndroidManifest.xml:23:5-67
@@ -18,62 +18,62 @@
 12-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pc\.gradle\caches\transforms-3\c4553c53a8a3087bd096d30fe41d8abf\transformed\firebase-auth-21.1.0\AndroidManifest.xml:24:22-76
 13
 14    <application
-14-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:5:5-33:19
+14-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:5:5-33:19
 15        android:allowBackup="true"
-15-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:6:9-35
+15-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:6:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 16-->[androidx.core:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\78d0f40d2b2f37c9bb60c47636567230\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 17        android:debuggable="true"
 18        android:extractNativeLibs="false"
 19        android:icon="@mipmap/ic_launcher"
-19-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:7:9-43
+19-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:7:9-43
 20        android:label="@string/app_name"
-20-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:8:9-41
+20-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:8:9-41
 21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:9:9-54
+21-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:9:9-54
 22        android:supportsRtl="true"
-22-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:10:9-35
+22-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:10:9-35
 23        android:testOnly="true"
 24        android:theme="@style/Theme.MyQuizApplication" >
-24-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:11:9-55
+24-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:11:9-55
 25        <activity
-25-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:12:9-14:40
+25-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:12:9-14:40
 26            android:name="easy.tuto.myquizapplication.Register"
-26-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:13:13-37
+26-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:13:13-37
 27            android:exported="false" />
-27-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:14:13-37
+27-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:14:13-37
 28        <activity
-28-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:15:9-23:20
+28-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:15:9-23:20
 29            android:name="easy.tuto.myquizapplication.Login"
-29-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:16:13-34
+29-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:16:13-34
 30            android:exported="true" >
-30-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:17:13-36
+30-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:17:13-36
 31            <intent-filter>
-31-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:18:13-22:29
+31-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:18:13-22:29
 32                <action android:name="android.intent.action.MAIN" />
-32-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:19:17-69
-32-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:19:25-66
+32-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:19:17-69
+32-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:19:25-66
 33
 34                <category android:name="android.intent.category.LAUNCHER" />
-34-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:21:17-77
-34-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:21:27-74
+34-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:21:17-77
+34-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:21:27-74
 35            </intent-filter>
 36        </activity>
 37        <activity
-37-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:24:9-32:20
+37-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:24:9-32:20
 38            android:name="easy.tuto.myquizapplication.MainActivity"
-38-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:25:13-41
+38-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:25:13-41
 39            android:exported="true" >
-39-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:26:13-36
+39-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:26:13-36
 40            <intent-filter>
-40-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:18:13-22:29
+40-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:18:13-22:29
 41                <action android:name="android.intent.action.MAIN" />
-41-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:19:17-69
-41-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:19:25-66
+41-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:19:17-69
+41-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:19:25-66
 42
 43                <category android:name="android.intent.category.LAUNCHER" />
-43-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:21:17-77
-43-->C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\AndroidManifest.xml:21:27-74
+43-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:21:17-77
+43-->C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:21:27-74
 44            </intent-filter>
 45        </activity>
 46        <activity

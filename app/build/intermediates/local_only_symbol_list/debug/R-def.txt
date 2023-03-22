@@ -25,6 +25,7 @@ id btn_login
 id choices_layout
 id etRegEmail
 id etRegPass
+id imageView
 id input_email
 id input_password
 id question

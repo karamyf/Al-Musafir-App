@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\pc\\Desktop\\Al-Musafir-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
+            "outputFile": "C:\\Users\\pc\\Desktop\\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-3\\d1289dd27d62bdf2a9bfa37b9a12ef99\\transformed\\browser-1.4.0\\res\\values-fi\\values-fi.xml",

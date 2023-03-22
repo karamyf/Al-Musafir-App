@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\pc\\Desktop\\Al-Musafir-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\pc\\Desktop\\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-3\\d74371ceae5f513e26d5147e223d2318\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",

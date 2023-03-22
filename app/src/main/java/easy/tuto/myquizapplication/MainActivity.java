@@ -9,6 +9,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     TextView totalQuestionsTextView;
@@ -16,10 +19,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button ansA, ansB, ansC, ansD;
     Button submitBtn;
 
-    int score=0;
     int totalQuestion = QuestionAnswer.question.length;
     int currentQuestionIndex = 0;
-    String selectedAnswer = "";
+    String[] userAnswers = new String[totalQuestion];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,75 +45,75 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         totalQuestionsTextView.setText("Total questions : "+totalQuestion);
 
         loadNewQuestion();
-
-
-
-
     }
 
     @Override
     public void onClick(View view) {
 
-        ansA.setBackgroundColor(Color.WHITE);
-        ansB.setBackgroundColor(Color.WHITE);
-        ansC.setBackgroundColor(Color.WHITE);
-        ansD.setBackgroundColor(Color.WHITE);
-
         Button clickedButton = (Button) view;
         if(clickedButton.getId()==R.id.submit_btn){
-            if(selectedAnswer.equals(QuestionAnswer.correctAnswers[currentQuestionIndex])){
-                score++;
-            }
+            userAnswers[currentQuestionIndex] = getSelectedAnswer();
             currentQuestionIndex++;
-            loadNewQuestion();
-
-
-        }else{
+            if (currentQuestionIndex == totalQuestion) {
+                finishQuiz();
+            } else {
+                loadNewQuestion();
+            }
+        } else {
             //choices button clicked
-            selectedAnswer  = clickedButton.getText().toString();
+            clearSelection();
             clickedButton.setBackgroundColor(Color.MAGENTA);
-
         }
-
     }
 
     void loadNewQuestion(){
-
-        if(currentQuestionIndex == totalQuestion ){
-            finishQuiz();
-            return;
-        }
-
         questionTextView.setText(QuestionAnswer.question[currentQuestionIndex]);
         ansA.setText(QuestionAnswer.choices[currentQuestionIndex][0]);
         ansB.setText(QuestionAnswer.choices[currentQuestionIndex][1]);
         ansC.setText(QuestionAnswer.choices[currentQuestionIndex][2]);
         ansD.setText(QuestionAnswer.choices[currentQuestionIndex][3]);
-
+        clearSelection();
     }
 
     void finishQuiz(){
-        String passStatus = "";
-        if(score > totalQuestion*0.60){
-            passStatus = "Passed";
-        }else{
-            passStatus = "Failed";
+        String answers = "Your answers:\n\n";
+        for (int i = 0; i < totalQuestion; i++) {
+            answers += "Question " + (i + 1) + ": " + userAnswers[i] + "\n";
         }
-
         new AlertDialog.Builder(this)
-                .setTitle(passStatus)
-                .setMessage("Score is "+ score+" out of "+ totalQuestion)
+                .setTitle("Quiz finished")
+                .setMessage(answers)
                 .setPositiveButton("Restart",(dialogInterface, i) -> restartQuiz() )
                 .setCancelable(false)
                 .show();
-
-
     }
 
     void restartQuiz(){
-        score = 0;
-        currentQuestionIndex =0;
+        currentQuestionIndex = 0;
+        Arrays.fill(userAnswers, null);
         loadNewQuestion();
     }
 
+    private void clearSelection() {
+        ansA.setBackgroundColor(Color.WHITE);
+        ansB.setBackgroundColor(Color.WHITE);
+        ansC.setBackgroundColor(Color.WHITE);
+        ansD.setBackgroundColor(Color.WHITE);
+    }
+
+    private String getSelectedAnswer() {
+        if (ansA.getBackground().getConstantState() == getResources().getDrawable(R.drawable.button_background_selected).getConstantState()) {
+            return ansA.getText().toString();
+        }
+        if (ansB.getBackground().getConstantState() == getResources().getDrawable(R.drawable.button_background_selected).getConstantState()) {
+            return ansB.getText().toString();
+        }
+        if (ansC.getBackground().getConstantState() == getResources().getDrawable(R.drawable.button_background_selected).getConstantState()) {
+            return ansC.getText().toString();
+        }
+        if (ansD.getBackground().getConstantState() == getResources().getDrawable(R.drawable.button_background_selected).getConstantState()) {
+            return ansD.getText().toString();
+        }
+        return null;
+    }
 }

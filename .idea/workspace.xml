@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="accf6507-921e-431f-8850-527ebb7c6fc1" name="Changes" comment="" />
+    <list default="true" id="b02d34d6-2753-48e2-b5c1-9da20ce1d095" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,52 +21,38 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="valueResourceFile" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectId" id="2MsGg89VCSjHUlEzBA9XGdmL1Gj" />
+  <component name="ProjectId" id="2NLb022sDF8LyaodKLr1fpgd0wa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pc/Desktop/Al-Musafir-App/app/src/main/res/drawable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/pc/Desktop/Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e/app/src/main/res/drawable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\res\drawable" />
-      <recent name="C:\Users\pc\Desktop\MyQuizApplication-master\app\src\main\res\drawable" />
+      <recent name="C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\res\drawable" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\pc\Desktop\Al-Musafir-App\app\src\main\res\drawable" />
-      <recent name="C:\Users\pc\Desktop\MyQuizApplication-master\app\src\main\res\drawable" />
-    </key>
-    <key name="android.template.-1940912742">
-      <recent name="easy.tuto.myquizapplication" />
+      <recent name="C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\res\drawable" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="MyQuizApplication.app.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -127,23 +113,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="accf6507-921e-431f-8850-527ebb7c6fc1" name="Changes" comment="" />
-      <created>1678548984388</created>
+      <changelist id="b02d34d6-2753-48e2-b5c1-9da20ce1d095" name="Changes" comment="" />
+      <created>1679446083436</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1678548984388</updated>
+      <updated>1679446083436</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

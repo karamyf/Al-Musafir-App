@@ -11,10 +11,10 @@
 
 
     <LinearLayout
-        android:layout_width="305dp"
-        android:layout_height="match_parent"
+        android:layout_width="321dp"
+        android:layout_height="518dp"
         android:layout_gravity="center"
-        android:layout_marginTop="165dp"
+        android:layout_marginTop="155dp"
         android:orientation="vertical">
 
 
@@ -26,7 +26,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/input_email"
                 android:layout_width="match_parent"
-                android:layout_height="41dp"
+                android:layout_height="35dp"
                 android:hint="Email"
                 android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -41,7 +41,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/input_password"
                 android:layout_width="match_parent"
-                android:layout_height="41dp"
+                android:layout_height="35dp"
                 android:hint="Password"
                 android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>

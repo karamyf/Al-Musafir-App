@@ -3,19 +3,29 @@ package easy.tuto.myquizapplication;
 public class QuestionAnswer {
 
     public static String question[] ={
-            "What is the name of the Islamic month following Ramadan?",
-            "In 2021, in which of these countries is the fasting period the longest?",
-            "In 2021, in which of these countries is the fasting period the shortest?",
-            "Who was the first person to embrace Islam after Prophet Muhammad?",
-            "What is the name of the night in Ramadan when the Quran is believed to have been revealed according to Muslims?"
+            "Which continent would you like to visit?",
+            "What is your preferred climate?",
+            "What type of activities are you interested in?",
+            "What is your budget for this trip?",
+            "What is your preferred mode of transportation?",
+            "What is your preferred type of accommodation?",
+            "How long do you plan to travel?",
+            "What type of cuisine do you prefer?",
+            "Are you interested in historical or cultural attractions?",
+            "Are you interested in outdoor activities or adventure sports?"
     };
 
     public static String choices[][] = {
-            {"Chaaban", "Rajab", "Chawwal", "Ramadan"},
-            {"United Kingdom", "Greenland", "Singapore", "None of the above"},
-            {"Thailand", "Bangladesh", "New Zealand", "None of the above"},
-            {"Ali ibn Abi Talib", "Abu Bakr", "Umar ibn al-Khattab", "Khadijah bint Khuwaylid"},
-            {"Laylat al-Qadr", "Laylat al-Qira'a", "Laylat al-Hiraf", "Laylat al-Nisf min Sha'ban"}
+            {"Africa", "Asia", "Europe", "South America"},
+            {"Tropical", "Mild", "Cold", "Dry"},
+            {"Beach", "City tours", "Hiking", "Safari"},
+            {"Budget-friendly", "Moderate", "Luxury", "No budget limit"},
+            {"Airplane", "Train", "Car", "Boat"},
+            {"Hotel", "Resort", "Hostel", "Vacation rental"},
+            {"Less than a week", "1-2 weeks", "2-3 weeks", "More than 3 weeks"},
+            {"Local cuisine", "International cuisine", "Vegetarian", "No preference"},
+            {"Yes", "No", "Maybe", "Depends on the location"},
+            {"Yes", "No", "Maybe", "Depends on the activity"}
     };
 
     public static String correctAnswers[] = {
