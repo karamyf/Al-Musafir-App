@@ -14,7 +14,7 @@
         android:layout_width="321dp"
         android:layout_height="518dp"
         android:layout_gravity="center"
-        android:layout_marginTop="155dp"
+        android:layout_marginTop="165dp"
         android:orientation="vertical">
 
 
@@ -51,6 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="14dp"
+            app:backgroundTint="#2C3E50"
             android:text="Login" />
 
         <LinearLayout

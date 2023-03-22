@@ -52,7 +52,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Button clickedButton = (Button) view;
         if(clickedButton.getId()==R.id.submit_btn){
-            userAnswers[currentQuestionIndex] = getSelectedAnswer();
+            String selectedAnswer = getSelectedAnswer();
+            if (selectedAnswer != null) {
+                userAnswers[currentQuestionIndex] = selectedAnswer;
+            }
             currentQuestionIndex++;
             if (currentQuestionIndex == totalQuestion) {
                 finishQuiz();
@@ -63,8 +66,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             //choices button clicked
             clearSelection();
             clickedButton.setBackgroundColor(Color.MAGENTA);
+            String selectedAnswer = clickedButton.getText().toString();
+            userAnswers[currentQuestionIndex] = selectedAnswer;
         }
     }
+
+
 
     void loadNewQuestion(){
         questionTextView.setText(QuestionAnswer.question[currentQuestionIndex]);
@@ -80,6 +87,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         for (int i = 0; i < totalQuestion; i++) {
             answers += "Question " + (i + 1) + ": " + userAnswers[i] + "\n";
         }
+
+
         new AlertDialog.Builder(this)
                 .setTitle("Quiz finished")
                 .setMessage(answers)
@@ -102,18 +111,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private String getSelectedAnswer() {
-        if (ansA.getBackground().getConstantState() == getResources().getDrawable(R.drawable.button_background_selected).getConstantState()) {
+        if (ansA.getBackground().mutate().getConstantState() == getResources().getDrawable(R.drawable.button_background_selected).mutate().getConstantState()) {
             return ansA.getText().toString();
         }
-        if (ansB.getBackground().getConstantState() == getResources().getDrawable(R.drawable.button_background_selected).getConstantState()) {
+        if (ansB.getBackground().mutate().getConstantState() == getResources().getDrawable(R.drawable.button_background_selected).mutate().getConstantState()) {
             return ansB.getText().toString();
         }
-        if (ansC.getBackground().getConstantState() == getResources().getDrawable(R.drawable.button_background_selected).getConstantState()) {
+        if (ansC.getBackground().mutate().getConstantState() == getResources().getDrawable(R.drawable.button_background_selected).mutate().getConstantState()) {
             return ansC.getText().toString();
         }
-        if (ansD.getBackground().getConstantState() == getResources().getDrawable(R.drawable.button_background_selected).getConstantState()) {
+        if (ansD.getBackground().mutate().getConstantState() == getResources().getDrawable(R.drawable.button_background_selected).mutate().getConstantState()) {
             return ansD.getText().toString();
         }
         return null;
     }
+
 }
