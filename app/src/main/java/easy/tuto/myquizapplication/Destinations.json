@@ -1,0 +1,64 @@
+{
+    "countries": [
+        {
+            "name": "Morocco",
+            "score": {
+                "location": 8,
+                "weather": 9,
+                "beach": 6,
+                "budget": 8,
+                "transportation": 7,
+                "accommodation": 8,
+                "duration": 9,
+                "food": 9,
+                "culture": 9,
+                "outdoor activities": 7
+            }
+        },
+        {
+            "name": "Canada",
+            "score": {
+                "location": 9,
+                "weather": 7,
+                "beach": 4,
+                "budget": 6,
+                "transportation": 8,
+                "accommodation": 9,
+                "duration": 10,
+                "food": 7,
+                "culture": 8,
+                "outdoor activities": 10
+            }
+        },
+        {
+            "name": "Belgium",
+            "score": {
+                "location": 7,
+                "weather": 6,
+                "beach": 2,
+                "budget": 7,
+                "transportation": 8,
+                "accommodation": 7,
+                "duration": 7,
+                "food": 10,
+                "culture": 10,
+                "outdoor activities": 5
+            }
+        },
+        {
+            "name": "Philippines",
+            "score": {
+                "location": 10,
+                "weather": 8,
+                "beach": 9,
+                "budget": 9,
+                "transportation": 6,
+                "accommodation": 8,
+                "duration": 8,
+                "food": 8,
+                "culture": 7,
+                "outdoor activities": 9
+            }
+        }
+    ]
+}

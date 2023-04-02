@@ -1979,6 +1979,7 @@ id forever
 id fragment_container_view_tag
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -2108,6 +2109,10 @@ id question
 id radio
 id ratio
 id rectangles
+id restart_button
+id result_imageview
+id result_textview
+id result_title_textview
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2311,6 +2316,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+layout activity_quiz_result
 layout activity_register
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row

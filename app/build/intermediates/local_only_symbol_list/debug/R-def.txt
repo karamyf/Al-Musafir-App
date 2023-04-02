@@ -29,12 +29,17 @@ id imageView
 id input_email
 id input_password
 id question
+id restart_button
+id result_imageview
+id result_textview
+id result_title_textview
 id submit_btn
 id total_question
 id tvLoginHere
 id tv_register_link
 layout activity_login
 layout activity_main
+layout activity_quiz_result
 layout activity_register
 mipmap ic_launcher
 mipmap ic_launcher_round

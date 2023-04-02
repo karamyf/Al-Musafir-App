@@ -9,14 +9,12 @@
     android:background="@drawable/lancher_background"
     tools:context=".Login">
 
-
     <LinearLayout
         android:layout_width="321dp"
-        android:layout_height="518dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="165dp"
         android:orientation="vertical">
-
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -26,7 +24,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/input_email"
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_height="42dp"
                 android:hint="Email"
                 android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -41,9 +39,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/input_password"
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:hint="Password"
-                android:inputType="textPassword" />
+                android:layout_height="42dp"
+                android:hint="Password"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.button.MaterialButton

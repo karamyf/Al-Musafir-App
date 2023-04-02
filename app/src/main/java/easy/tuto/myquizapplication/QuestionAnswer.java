@@ -26,14 +26,9 @@ public class QuestionAnswer {
             {"Local cuisine", "International cuisine", "Vegetarian", "No preference"},
             {"Yes", "No", "Maybe", "Depends on the location"},
             {"Yes", "No", "Maybe", "Depends on the activity"}
+
+
     };
 
-    public static String correctAnswers[] = {
-            "Chaaban",
-            "Greenland",
-            "New Zealand",
-            "Khadijah bint Khuwaylid",
-            "Laylat al-Qadr (Night of Power)"
-    };
 
 }

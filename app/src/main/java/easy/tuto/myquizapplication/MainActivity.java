@@ -1,10 +1,11 @@
 package easy.tuto.myquizapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
 import android.app.AlertDialog;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -12,7 +13,9 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+
 
     TextView totalQuestionsTextView;
     TextView questionTextView;
@@ -22,12 +25,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     int totalQuestion = QuestionAnswer.question.length;
     int currentQuestionIndex = 0;
     String[] userAnswers = new String[totalQuestion];
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         totalQuestionsTextView = findViewById(R.id.total_question);
         questionTextView = findViewById(R.id.question);
         ansA = findViewById(R.id.ans_A);
@@ -43,9 +44,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         submitBtn.setOnClickListener(this);
 
         totalQuestionsTextView.setText("Total questions : "+totalQuestion);
-
         loadNewQuestion();
     }
+
 
     @Override
     public void onClick(View view) {
@@ -72,7 +73,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
-
     void loadNewQuestion(){
         questionTextView.setText(QuestionAnswer.question[currentQuestionIndex]);
         ansA.setText(QuestionAnswer.choices[currentQuestionIndex][0]);
@@ -82,26 +82,35 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         clearSelection();
     }
 
+    DestinationGenerator destinationGenerator = new DestinationGenerator();
+
+
+
     void finishQuiz(){
         String answers = "Your answers:\n\n";
         for (int i = 0; i < totalQuestion; i++) {
             answers += "Question " + (i + 1) + ": " + userAnswers[i] + "\n";
         }
 
+        String bestDestination = destinationGenerator.getBestDestination(userAnswers);
+        String resultMessage = "Your best destination is: " + bestDestination;
 
+        /* ALERT DIALOG
         new AlertDialog.Builder(this)
                 .setTitle("Quiz finished")
-                .setMessage(answers)
+                .setMessage(answers + resultMessage)
                 .setPositiveButton("Restart",(dialogInterface, i) -> restartQuiz() )
                 .setCancelable(false)
                 .show();
+        */
+
+        // Start a new activity to show the quiz results
+        Intent intent = new Intent(this, QuizResultActivity.class);
+        intent.putExtra("answers", answers);
+        intent.putExtra("bestDestination", bestDestination);
+        startActivity(intent);
     }
 
-    void restartQuiz(){
-        currentQuestionIndex = 0;
-        Arrays.fill(userAnswers, null);
-        loadNewQuestion();
-    }
 
     private void clearSelection() {
         ansA.setBackgroundColor(Color.WHITE);

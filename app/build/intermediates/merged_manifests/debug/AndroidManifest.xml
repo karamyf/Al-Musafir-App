@@ -23,6 +23,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.MyQuizApplication" >
         <activity
+            android:name="easy.tuto.myquizapplication.QuizResultActivity"
+            android:exported="false" />
+        <activity
             android:name="easy.tuto.myquizapplication.Register"
             android:exported="false" />
         <activity
