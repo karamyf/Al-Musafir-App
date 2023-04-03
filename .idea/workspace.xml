@@ -54,6 +54,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="easy.tuto.myquizapplication" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\res\drawable" />
     </key>
@@ -135,5 +138,20 @@
       <updated>1679446083436</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/easy/tuto/myquizapplication/QuizResultActivity.java</url>
+          <line>59</line>
+          <properties method="onFailure">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

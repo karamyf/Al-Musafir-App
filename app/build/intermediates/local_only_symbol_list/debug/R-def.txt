@@ -28,6 +28,7 @@ id etRegPass
 id imageView
 id input_email
 id input_password
+id my_answers_button
 id question
 id restart_button
 id result_imageview

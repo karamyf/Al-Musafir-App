@@ -87,7 +87,8 @@
         android:layout_marginTop="40dp"
         android:text="Travel to the next Question"
         android:textColor="@color/black"
-        android:backgroundTint="@color/light_blue" />
+        android:backgroundTint="@color/light_blue"
+        android:drawableRight="@drawable/ic_arrow_forward" />
 
     <Button
         android:id="@+id/back_btn"
@@ -97,7 +98,8 @@
         android:layout_marginTop="98dp"
         android:backgroundTint="@color/light_blue"
         android:text="Back to the Previous Question"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/ic_arrow_back"/>
 
 
 </RelativeLayout>

@@ -2,9 +2,13 @@ package easy.tuto.myquizapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.bumptech.glide.Glide;
@@ -27,6 +31,7 @@ public class QuizResultActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_result);
 
@@ -44,7 +49,7 @@ public class QuizResultActivity extends AppCompatActivity {
         resultTextView.setText(resultMessage);
 
         // Call the API to get image URL based on the best destination
-        String apiUrl = "https://api.unsplash.com/search/photos?query=" + "USA" + "&per_page=1&client_id=gnhEMq1cHwx0v9hOGFudH3HOCiTsPMrhlP4vDsk4C-k";
+        String apiUrl = "https://api.unsplash.com/search/photos?query=" + bestDestination + "&per_page=1&client_id=gnhEMq1cHwx0v9hOGFudH3HOCiTsPMrhlP4vDsk4C-k";
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder()
                 .url(apiUrl)
@@ -90,6 +95,31 @@ public class QuizResultActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void openMyAnswersPage(View view) {
+        String answers = "History of Answers:\n\n";
+        for (int i = 0; i < MainActivity.totalQuestion; i++) {
+            answers += "Question " + (i + 1) + ": " + MainActivity.userAnswers[i] + "\n";
+        }
+
+        AlertDialog alertDialog = new AlertDialog.Builder(this)
+                .setTitle("Your Answers")
+                .setMessage(answers)
+                .setCancelable(false)
+                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss(); // Close the AlertDialog window
+                    }
+                })
+                .show();
+
+        // Set the button text color to black
+        Button positiveButton = alertDialog.getButton(DialogInterface.BUTTON_POSITIVE);
+        positiveButton.setTextColor(Color.BLACK);
+    }
+
+
 
     private void restartQuiz() {
         Intent intent = new Intent(this, MainActivity.class);

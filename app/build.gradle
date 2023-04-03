@@ -45,6 +45,7 @@ dependencies {
     implementation('com.squareup.okhttp3:okhttp:4.9.2') {
         exclude group: 'org.hamcrest', module: 'hamcrest-core'
     }
+    implementation 'com.google.firebase:firebase-database:20.0.4'
 
     testImplementation('junit:junit:4.13.2') {
         exclude group: 'org.hamcrest', module: 'hamcrest-core'

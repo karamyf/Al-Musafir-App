@@ -167,36 +167,42 @@
 91-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pc\.gradle\caches\transforms-3\c4553c53a8a3087bd096d30fe41d8abf\transformed\firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
 92                android:value="com.google.firebase.components.ComponentRegistrar" />
 92-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pc\.gradle\caches\transforms-3\c4553c53a8a3087bd096d30fe41d8abf\transformed\firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
-93        </service>
-94
-95        <provider
-95-->[com.google.firebase:firebase-common:20.2.0] C:\Users\pc\.gradle\caches\transforms-3\baebdc0fecbac38c2d3547ae765d61df\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
-96            android:name="com.google.firebase.provider.FirebaseInitProvider"
-96-->[com.google.firebase:firebase-common:20.2.0] C:\Users\pc\.gradle\caches\transforms-3\baebdc0fecbac38c2d3547ae765d61df\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
-97            android:authorities="easy.tuto.myquizapplication.firebaseinitprovider"
-97-->[com.google.firebase:firebase-common:20.2.0] C:\Users\pc\.gradle\caches\transforms-3\baebdc0fecbac38c2d3547ae765d61df\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
-98            android:directBootAware="true"
-98-->[com.google.firebase:firebase-common:20.2.0] C:\Users\pc\.gradle\caches\transforms-3\baebdc0fecbac38c2d3547ae765d61df\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
-99            android:exported="false"
-99-->[com.google.firebase:firebase-common:20.2.0] C:\Users\pc\.gradle\caches\transforms-3\baebdc0fecbac38c2d3547ae765d61df\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
-100            android:initOrder="100" />
-100-->[com.google.firebase:firebase-common:20.2.0] C:\Users\pc\.gradle\caches\transforms-3\baebdc0fecbac38c2d3547ae765d61df\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
-101
-102        <activity
-102-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\pc\.gradle\caches\transforms-3\11c35ca80bacea34be2cf4eddb5e1f97\transformed\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-103-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\pc\.gradle\caches\transforms-3\11c35ca80bacea34be2cf4eddb5e1f97\transformed\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-104            android:exported="false"
-104-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\pc\.gradle\caches\transforms-3\11c35ca80bacea34be2cf4eddb5e1f97\transformed\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-105-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\pc\.gradle\caches\transforms-3\11c35ca80bacea34be2cf4eddb5e1f97\transformed\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-106
-107        <meta-data
-107-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\pc\.gradle\caches\transforms-3\fb57ddac0b5d4825664b21b118fc14d4\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-108            android:name="com.google.android.gms.version"
-108-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\pc\.gradle\caches\transforms-3\fb57ddac0b5d4825664b21b118fc14d4\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-109            android:value="@integer/google_play_services_version" />
-109-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\pc\.gradle\caches\transforms-3\fb57ddac0b5d4825664b21b118fc14d4\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-110    </application>
-111
-112</manifest>
+93            <meta-data
+93-->[com.google.firebase:firebase-database:20.0.4] C:\Users\pc\.gradle\caches\transforms-3\ea4b59f90fcb7f0099ee9035537f422e\transformed\firebase-database-20.0.4\AndroidManifest.xml:32:13-34:85
+94                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+94-->[com.google.firebase:firebase-database:20.0.4] C:\Users\pc\.gradle\caches\transforms-3\ea4b59f90fcb7f0099ee9035537f422e\transformed\firebase-database-20.0.4\AndroidManifest.xml:33:17-109
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-database:20.0.4] C:\Users\pc\.gradle\caches\transforms-3\ea4b59f90fcb7f0099ee9035537f422e\transformed\firebase-database-20.0.4\AndroidManifest.xml:34:17-82
+96        </service>
+97
+98        <provider
+98-->[com.google.firebase:firebase-common:20.2.0] C:\Users\pc\.gradle\caches\transforms-3\baebdc0fecbac38c2d3547ae765d61df\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+99            android:name="com.google.firebase.provider.FirebaseInitProvider"
+99-->[com.google.firebase:firebase-common:20.2.0] C:\Users\pc\.gradle\caches\transforms-3\baebdc0fecbac38c2d3547ae765d61df\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+100            android:authorities="easy.tuto.myquizapplication.firebaseinitprovider"
+100-->[com.google.firebase:firebase-common:20.2.0] C:\Users\pc\.gradle\caches\transforms-3\baebdc0fecbac38c2d3547ae765d61df\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+101            android:directBootAware="true"
+101-->[com.google.firebase:firebase-common:20.2.0] C:\Users\pc\.gradle\caches\transforms-3\baebdc0fecbac38c2d3547ae765d61df\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+102            android:exported="false"
+102-->[com.google.firebase:firebase-common:20.2.0] C:\Users\pc\.gradle\caches\transforms-3\baebdc0fecbac38c2d3547ae765d61df\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+103            android:initOrder="100" />
+103-->[com.google.firebase:firebase-common:20.2.0] C:\Users\pc\.gradle\caches\transforms-3\baebdc0fecbac38c2d3547ae765d61df\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+104
+105        <activity
+105-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\pc\.gradle\caches\transforms-3\d68a8d60b90e4eea5c60ac49e3189e1d\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+106            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+106-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\pc\.gradle\caches\transforms-3\d68a8d60b90e4eea5c60ac49e3189e1d\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+107            android:exported="false"
+107-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\pc\.gradle\caches\transforms-3\d68a8d60b90e4eea5c60ac49e3189e1d\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+108-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\pc\.gradle\caches\transforms-3\d68a8d60b90e4eea5c60ac49e3189e1d\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+109
+110        <meta-data
+110-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\pc\.gradle\caches\transforms-3\fb57ddac0b5d4825664b21b118fc14d4\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+111            android:name="com.google.android.gms.version"
+111-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\pc\.gradle\caches\transforms-3\fb57ddac0b5d4825664b21b118fc14d4\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+112            android:value="@integer/google_play_services_version" />
+112-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\pc\.gradle\caches\transforms-3\fb57ddac0b5d4825664b21b118fc14d4\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+113    </application>
+114
+115</manifest>

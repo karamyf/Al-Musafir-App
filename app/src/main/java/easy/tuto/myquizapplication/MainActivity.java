@@ -21,10 +21,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     TextView questionTextView;
     Button ansA, ansB, ansC, ansD;
     Button submitBtn;
+    Button backBtn;
 
-    int totalQuestion = QuestionAnswer.question.length;
+    static int totalQuestion = QuestionAnswer.question.length;
     int currentQuestionIndex = 0;
-    String[] userAnswers = new String[totalQuestion];
+    static String[] userAnswers = new String[totalQuestion];
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,12 +37,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ansC = findViewById(R.id.ans_C);
         ansD = findViewById(R.id.ans_D);
         submitBtn = findViewById(R.id.submit_btn);
+        backBtn = findViewById(R.id.back_btn);
 
         ansA.setOnClickListener(this);
         ansB.setOnClickListener(this);
         ansC.setOnClickListener(this);
         ansD.setOnClickListener(this);
         submitBtn.setOnClickListener(this);
+        backBtn.setOnClickListener(this);
 
         totalQuestionsTextView.setText("Total questions : "+totalQuestion);
         loadNewQuestion();
@@ -63,7 +66,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             } else {
                 loadNewQuestion();
             }
-        } else {
+        }
+        else if(clickedButton.getId()==R.id.back_btn) {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                loadNewQuestion();
+            }
+        }
+        else {
             //choices button clicked
             clearSelection();
             clickedButton.setBackgroundColor(Color.MAGENTA);
@@ -86,30 +96,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
 
+
     void finishQuiz(){
         String answers = "Your answers:\n\n";
         for (int i = 0; i < totalQuestion; i++) {
             answers += "Question " + (i + 1) + ": " + userAnswers[i] + "\n";
         }
 
-        String bestDestination = destinationGenerator.getBestDestination(userAnswers);
+        String bestDestination = DestinationGenerator.getBestDestination(userAnswers);
         String resultMessage = "Your best destination is: " + bestDestination;
-
-        /* ALERT DIALOG
-        new AlertDialog.Builder(this)
-                .setTitle("Quiz finished")
-                .setMessage(answers + resultMessage)
-                .setPositiveButton("Restart",(dialogInterface, i) -> restartQuiz() )
-                .setCancelable(false)
-                .show();
-        */
 
         // Start a new activity to show the quiz results
         Intent intent = new Intent(this, QuizResultActivity.class);
         intent.putExtra("answers", answers);
         intent.putExtra("bestDestination", bestDestination);
+        intent.putExtra("userAnswers", userAnswers); // add this line to pass userAnswers to QuizResultActivity
         startActivity(intent);
+        finish();
     }
+
+
 
 
     private void clearSelection() {
