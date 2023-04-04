@@ -61,6 +61,7 @@
       <recent name="C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\res\drawable" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\res\drawable" />
       <recent name="C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\java\easy\tuto\myquizapplication" />
       <recent name="C:\Users\pc\Desktop\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\res\drawable" />
     </key>
@@ -150,6 +151,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/easy/tuto/myquizapplication/MainActivity.java</url>
+          <line>103</line>
+          <properties class="easy.tuto.myquizapplication.MainActivity" method="finishQuiz">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

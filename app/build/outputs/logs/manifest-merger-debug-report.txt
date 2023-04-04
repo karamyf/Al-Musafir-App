@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-40:12
+ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\pc\.gradle\caches\transforms-3\feddae91f3bd470da97bec7f36d913e4\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\pc\.gradle\caches\transforms-3\b92d4aa5bf5773c3d1df4e69c863379e\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\1b3d8f1926af07fdda0c5edae2d4b160\transformed\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
@@ -55,20 +55,20 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\pc\.gradle\cache
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\a20e96b89402e7ba1bf1ac05c9766002\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\ee5e1ed0927fb6d741505c14d3cfe938\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\c43cd158e6571229980dd3b588c7d356\transformed\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
 		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-40:12
+		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-40:12
+		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:2:11-69
@@ -80,8 +80,12 @@ MERGED from [com.google.firebase:firebase-database:20.0.4] C:\Users\pc\.gradle\c
 MERGED from [com.google.firebase:firebase-database:20.0.4] C:\Users\pc\.gradle\caches\transforms-3\ea4b59f90fcb7f0099ee9035537f422e\transformed\firebase-database-20.0.4\AndroidManifest.xml:26:5-67
 	android:name
 		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:6:22-77
 application
-ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:7:5-38:19
+ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:8:5-39:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\pc\.gradle\caches\transforms-3\feddae91f3bd470da97bec7f36d913e4\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\pc\.gradle\caches\transforms-3\feddae91f3bd470da97bec7f36d913e4\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\pc\.gradle\caches\transforms-3\b92d4aa5bf5773c3d1df4e69c863379e\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -115,51 +119,51 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\pc
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\78d0f40d2b2f37c9bb60c47636567230\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:13:9-55
+		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:14:9-55
 activity#easy.tuto.myquizapplication.QuizResultActivity
-ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:14:9-16:40
+ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:15:9-17:40
 	android:exported
-		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:16:13-37
+		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:15:13-47
+		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:16:13-47
 activity#easy.tuto.myquizapplication.Register
-ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:17:9-19:40
+ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
+		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:20:13-37
+	android:name
 		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:19:13-37
-	android:name
-		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:18:13-37
 activity#easy.tuto.myquizapplication.Login
-ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:20:9-28:20
+ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:21:9-29:20
 	android:exported
-		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:22:13-36
+		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:23:13-36
 	android:name
-		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:21:13-34
+		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:22:13-34
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:23:13-27:29
+ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:24:17-69
+ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:24:25-66
+		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:26:17-77
+ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:27:27-74
 activity#easy.tuto.myquizapplication.MainActivity
-ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:29:9-37:20
+ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:30:9-38:20
 	android:exported
-		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:31:13-36
+		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:32:13-36
 	android:name
-		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:30:13-41
+		ADDED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml:31:13-41
 uses-sdk
 INJECTED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\pc\Desktop\Home\Schooll\S8\Programmation Mobile\Al-Musafir-App-d837fe948abd710026682d8c0a9038ab34774c3e\app\src\main\AndroidManifest.xml

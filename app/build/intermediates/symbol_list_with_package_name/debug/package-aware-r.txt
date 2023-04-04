@@ -1744,6 +1744,7 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_arrow_back
 drawable ic_arrow_forward
+drawable ic_baseline_account_circle_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -1999,7 +2000,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
 id info
 id input_email
 id input_password
@@ -2007,6 +2007,7 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id ivAvatar
 id jumpToEnd
 id jumpToStart
 id labeled

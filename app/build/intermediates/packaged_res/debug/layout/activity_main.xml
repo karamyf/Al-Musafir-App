@@ -24,13 +24,9 @@
         android:layout_above="@id/choices_layout"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="81dp"
-        android:shadowColor="@color/black"
-        android:shadowDx="1"
-        android:shadowDy="1"
-        android:shadowRadius="2"
         android:text="This will be the question"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="#385573"
         android:textSize="24dp"
         android:textStyle="bold" />
 
